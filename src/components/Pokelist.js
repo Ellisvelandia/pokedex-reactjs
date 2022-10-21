@@ -31,9 +31,9 @@ const Pokelist = () => {
   }, []);
 
   return (
-    <div className="app-contaner">
+    <div className="app-container">
       <div className="pokemon-container">
-        <div className="all-contaner">
+        <div className="all-container">
           {allPokemons.map((pokemonStats) => (
             <PokemonCard
               key={pokemonStats.name}

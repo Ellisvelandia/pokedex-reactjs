@@ -28,7 +28,6 @@ const Topbar = () => {
           </div>
         </div>
       </div>
-      <p style={{ color: "white" }}>A -&gt;</p>
     </div>
   );
 };

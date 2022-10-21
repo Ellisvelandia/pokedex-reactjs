@@ -31,7 +31,7 @@ const PokemonCard = ({
         <div className="show">
           <div className="stat-container-title">
             <img src={image} alt={name} className="image-title" />
-            <p style={{ width: "180px", color: "#000" }}>No. {id}</p>
+            <p style={{ width: "80px", color: "#000" }}>No. {id}</p>
             <p>{name}</p>
             <img src={pokeball} alt="pokeball" className="pokeball-title" />
           </div>
